@@ -1,0 +1,151 @@
+/* Styling the website*/
+
+/*Website spacing*/
+body, html {
+  margin: 2px;
+  padding: 0;
+}
+
+/*Main title page picture*/
+
+.main_img {
+	width: 100%;
+	height: 80%;
+	
+}
+/*list images design*/
+.list_image {
+	width: 95%;
+	height: 700px;
+}
+
+/*sloth images design*/
+.sloths {
+	width: 100%;
+	height: 100%;
+}
+
+/*panda collage design*/
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+    
+.collage img {
+	width: 300px;
+    height: 300px;
+}
+
+.validators{
+	padding: 15px;
+}
+
+/*background color for everything*/
+body {
+	background-color: beige;
+	padding: 10px;
+}
+
+/*font design*/
+html{
+	text-align: center;
+}
+
+h3 {
+	 font-family: Times, Optima, serif;
+	 font-weight: normal;
+}
+
+/*table design*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/*list design*/
+.list {
+	font-family: Times, Times, serif;
+	text-align: left;
+}
+
+/* toolbar design*/
+.toolbar {
+  background-color: #333;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.toolbar a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.toolbar a:hover {
+  text-decoration: underline;
+}
+
+body {
+	margin-top: 50px;
+}
+
+/*title in the toolbar design*/
+#title_design {
+  margin: 10px;
+  padding: 0;
+  font-size: 20px;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 3px;
+}
+
+/* bottom bar design*/
+.bottombar {
+  color: gray;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bottombar a{
+	color: white;
+	text-decoration: none;
+}
+
+.bottombar a:hover{
+	text-decoration: underline;
+}
+
+/*iframe code*/
+iframe {
+	border: 0;
+	width: 560px;	 
+	height: 315px;
+}
+
+
